@@ -1,4 +1,16 @@
 
-#skincare {
+body {
+    background-image: linear-gradient(to right, #c1dfc4, #deecdd);
     
+}
+
+#skincare {
+    height: 400px;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.6;
+    border-radius: 40px;
+
 }
