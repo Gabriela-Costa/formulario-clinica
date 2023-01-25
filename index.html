@@ -11,14 +11,14 @@
 <body>
     <img id="skincare" src="imagens/skincare.jpg" alt="SkinCare">
     <h1>Formulário de Pesquisa</h1>
-    <p>Nos ajude a melhorar os nossos serviços, avalie nossa Clínica Estética.</p>
+    <h2>Nos ajude a melhorar os nossos serviços, avalie nossa Clínica Estética.</h2>
 
     <main>
         <form>
             <label for="nome">Nome e sobrenome</label>
             <input type="text" id="nome" class="input-padrao">
 
-            <label for="email">Seu melhor Email</label>
+            <label for="email">Email</label>
             <input type="email" id="email" class="input-padrao">
 
             <label for="nasc">Data de nascimento</label>
@@ -28,16 +28,25 @@
                 <p>Recomendaria nossos serviços?</p>
                 
                 <label for="sim"><input type="radio" id="sim" name="escolha">Sim</label>
-                <label for="nao"><input type="radio" id="nao" name="escolha">Não</label>
+                <label for="nao" class="checkbox"><input type="radio" id="nao" name="escolha">Não</label>
+            </div>
+
+            <div>
+                <p>Qual horário prefere ser atendido?</p>
+                <select>
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
             </div>
             
             <label for="avaliacao">Comentários e sugestões</label>
             <textarea cols="60" rows="10" id="avaliacao"></textarea>
 
-            <label><input type="checkbox">Gostaria de receber nossas novidades por email?</label>
+            <label><input type="checkbox" class="checkbox">Gostaria de receber nossas novidades por email?</label>
 
 
-            <input type="button" onclick="alert('Formulário enviado')" value="Enviar formulário" >
+            <input type="button" onclick="alert('Formulário enviado')" value="ENVIAR" >
 
         </form>
     </main>
