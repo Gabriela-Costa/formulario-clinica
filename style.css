@@ -1,7 +1,7 @@
 
 body {
     background-image: linear-gradient(to right, #c1dfc4, #deecdd);
-    
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #skincare {
@@ -13,4 +13,30 @@ body {
     opacity: 0.6;
     border-radius: 40px;
 
+}
+
+main{
+    width: 800px;
+    /*margin: auto;*/
+}
+
+form{
+    margin: 40px 0;
+    padding: 40px;
+    background-color: white;
+    border-radius: 10%;
+}
+
+form label, form p {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 5px;
+
+}
+
+.input-padrao{
+    display: block;
+    margin-bottom: 20px;
+    padding: 5px 100px;
+   
 }
